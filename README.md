@@ -1,7 +1,11 @@
-# Results from Gene Prioritization Methods applied to GTEx v8 gene expression data
+## Results from Gene Prioritization Methods applied to GTEx v8 gene expression data
 This repo contains information to access results from gene prioritization methods (GPMs) applied across 87 traits and 49 tissues from the Genotype Tissue Expression (GTEx v8) consortium.
 
+### Accessing results databases
+
 SQLite eQTL and sQTL databases containing results across S-PrediXcan, S-MultiXcan, ENLOC, SMR(+HEIDI) and COLOC (for eQTLs only) are available for download here: https://drive.google.com/drive/folders/1NqFzWZu1ZZ48YlgNIuOjgi5k6VrBjjOW?usp=sharing
+
+### Extracting results
 
 Results across the GPMs for each tissue are in a separate database. The json metadata files provide a list of table names in each DB. Here is some sample code to obtain a dataframe containing all results for Type 1 Diabetes in Subcutanous Adipose tissue.
 
@@ -21,6 +25,8 @@ df_header = gpm_df.iloc[0]
 gpm_df = gpm_df[1:] 
 gpm_df.columns = df_header
 ```
+
+### Citation
 
 If you use these results, please cite the associated publication: 
 
