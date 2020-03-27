@@ -9,6 +9,8 @@ SQLite eQTL and sQTL databases containing results across S-PrediXcan, S-MultiXca
 
 Results across the GPMs for each tissue are in a separate database. The json metadata files provide a list of table names in each DB. Here is some sample code to obtain a dataframe containing all results for Type 1 Diabetes in Subcutanous Adipose tissue.
 
+Each table in the DBs has column names containing a prefix that points to the method that generated that column.
+
 ```python
 import sqlite3
 import pandas as pd
