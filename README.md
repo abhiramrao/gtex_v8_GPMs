@@ -1,5 +1,5 @@
-## Results from Gene Prioritization Methods applied to GTEx v8 gene expression data
-This repo contains information to access results from gene prioritization methods (GPMs) applied across 87 traits and 49 tissues from the Genotype Tissue Expression (GTEx v8) consortium.
+## Results from Gene Prioritization Methods applied to GTEx v8 data
+This repo contains information to access results from gene prioritization methods (GPMs) applied across 87 traits and 49 tissues from the Genotype Tissue Expression (GTEx v8) consortium. Results available for gene expression and splicing.
 
 ### Accessing results databases
 
